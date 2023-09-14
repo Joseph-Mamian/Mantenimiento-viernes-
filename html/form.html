@@ -10,28 +10,46 @@
     <a href="../index.html"><h2>VOLVER ATRÁS</h2></a>
     <!-- Primer formulario -->
     <form action="" id="info_personal">
+        <h2>Registrate llenando el formulario</h2>
         <fieldset>
-            <legend>Info personal</legend>
-            <label for="">Nombre:</label>
-            <input type="text">
+            <Legend>Cree su cuenta</Legend>
+            <table></table>
+            <label for="nombre">Nombre de usuario:</label>
+            <input type="text" id="nombre" required>
             <br>
-            <label for="">Apellidos:</label>
-            <input type="text">
+            <label for="contraseña" id="">Contraseña:</label>
+            <input type="password" id="contraseña" required>
             <br>
-            <label for="">Password</label>
-            <input type="password">
+           <label for="Correo">Ingrese su correo electronico</label>
+            <input type="text" id="Correo" required>
             <br>
-            <label for="">Fecha de nacimiento</label>
-            <input type="date">
-            <br><input type="color" name="" id="">
-            <br><input type="number" name="" id="">
-            <br><input type="file">
+            <label for="telefono">Ingrese su numero de telefono</label>
+            <input type="number" id="Telefono" required>
+            <br>
+             <label for="fecha">Fecha de nacimiento</label>
+            <input type="date" id="Fecha de nacimiento" required>
+            <br>
+            <label for="genero">Elija su genero:</label>
+            <input type="radio" name="genero" id="genero">Hombre
+            <input type="radio" name="genero" id="genero">Mujer
+            <input type="radio" name="genero" id="genero">Prefiero no decirlo
+            <br>
+            <label for="color">De que color quiere establecer su menu</label>
+            <input type="color" id="color perfil">
+            <br>
+            <label for="foto">Cargue una foto de perfil</label>
+            <input type="file" id="Foto perfil">
+            <br>
+            <label for="terminos">Acepte los terminos y condiciones</label>
+            <input type="checkbox" id="terminos" required>
+            <br>
+            <input type="submit" value="Registrarse">
+            <input type="submit" value="Cancelar">
+
+
+
+
         </fieldset>
-    </form>
-    <br><br><br>
-    <form action=""></form>
-    <fieldset>
-        <legend>info laboral</legend>
-    </fieldset>
+   
 </body>
 </html>
