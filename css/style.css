@@ -1,0 +1,40 @@
+/* tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;800&display=swap');
+
+
+/* selector universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* selector de etiqueta */
+h1 {
+    font-family: 'playfair display', Times, sans-serif;
+}
+/* selector por id */
+#word_one{
+    font-size: 30px;
+    color: cadetblue;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+/* selector de clase  .........*/
+.word_group{
+   background-color: rgb(90, 105, 75);
+   color: #fff;
+   margin: 10px;
+}
+#list_options{
+    border: 5px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+/* selector por atributo []*/
+[disabled]{
+        background-color: red;
+}
+/* pseudo clases */
+.word_group:hover{
+    background-color: blue;
+    padding: 5px;
+}
