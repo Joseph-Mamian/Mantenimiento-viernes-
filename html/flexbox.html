@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div#father{
+            height: 100vh;
+            display: grid;
+            /* place-items: center; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            flex-wrap: nowrap;
+            flex-direction: column-reverse;
+            transform: skew(-5deg,-10deg);
+        }
+        div#son, #son_one,#son_two,#son_three,#son_four,#son_five{
+            height: 150px;
+            width: 150px;
+            background-color: black;
+            border-radius: 10px;
+        }
+        #son_one{
+            background-color: aqua;
+            transform: translate(-5px,-10px);
+        }
+        #son_two{
+            background-color:bisque;
+            transform: scale(1.2);
+        }
+        #son_three{
+            background-color: red;
+            transform: rotate(35deg);
+        }
+        #son_four{
+            background-color: blue;
+        }
+        #son_five{
+            background-color: green;
+        }
+
+    </style>
+
+</head>
+<body>
+    <a href="../index.html"><h2>VOLVER ATRÁS</h2></a>
+    <!-- #father#son -->
+    <div id="father"> 
+        <div id="son"></div>
+        <div id="son_one"></div>
+        <div id="son_two"></div>
+        <div id="son_three"></div>
+        <div id="son_four"></div>
+        <div id="son_five"></div>
+    </div>
+</body>
+
+</html>
